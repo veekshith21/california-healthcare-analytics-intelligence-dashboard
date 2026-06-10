@@ -1,0 +1,13 @@
+Field Name,Field Title,Data Type,Description
+reporting_year,Reporting Year,Plain text,The 12-month calendar year used for the reporting period.
+age_band,Age Band,Plain text,The age range a member falls into based on age on the last day of the reporting period.
+assigned_sex_at_birth,Assigned Sex at Birth,Plain text,The member's assigned sex at birth as reported on enrollment records.
+covered_california_region,Covered California Region,Plain text,This field identifies the Covered California Region associated with the member's residence based on ZIP code.
+geo_type,Geography Type,Plain text,"This field identifies whether the record represents a value at the county level or for a Los Angeles SPA area. Before summing records together, filter out either Los Angeles County or the eight LA County SPAs in order to avoid duplication."
+geo_value,Geography Value,Plain text,"This field gives the name of the county or Los Angeles SPA, depending on the associated geography type. Before summing records together, filter out either Los Angeles County or the eight LA County SPAs in order to avoid duplication."
+payer_type,Payer Type,Plain text,"Payers are the companies, programs, and organizations that oversee insurance plans and reimburse healthcare providers. The three main types of payers are Commercial, Medi-Cal, and Medicare."
+measure_id,Measure ID,Number,An identifier unique to each measure.
+measure_numerator,Measure Numerator,Number,The measure numerator. See measure_id tab for specific information on each numerator. 
+measure_denominator,Measure Denominator,Number,The measure denominator. See measure_id tab for specific information on each denominator. 
+measure_scaling_factor,Measure Scaling Factor,Number,"The value used to scale the measure rate in the vizualization. Prevalence rates are scaled to percents and utilization measures are scaled to per 1,000 members over 12 months (12,000)."
+suppression_ind,Suppression Indicator,Plain text,This field identifies whether the measure numerator and/or denominator was suppressed for the given reporting period.
