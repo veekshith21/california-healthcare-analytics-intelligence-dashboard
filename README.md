@@ -221,11 +221,11 @@ california-healthcare-analytics-intelligence-dashboard/
 
 ## Author
 
-**Vicky Ravulavee**  
+**Veekshith Reddy Ravula**  
 [GitHub](https://github.com/veekshith21)
 
 ---
 
 ## License
 
-Data sourced from California OHCA (public dataset). Dashboard and analysis by Vicky Ravulavee.
+Data sourced from California OHCA (public dataset). Dashboard and analysis by Veekshith.
